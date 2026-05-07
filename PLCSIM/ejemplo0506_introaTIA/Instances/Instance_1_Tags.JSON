@@ -1,0 +1,170 @@
+[
+  {
+    "ChildTags": [],
+    "Name": "Start I",
+    "Address": {
+      "OffsetString": "0.0",
+      "BitOffset": 0,
+      "ByteOffset": 0,
+      "Area": 0,
+      "BitWidth": 1,
+      "IsPeripheral": true,
+      "DataBlockNumber": -1,
+      "IsOptimizedDb": false,
+      "DataBlockArea": 0,
+      "AddressUserInput": "%I0.0",
+      "DataType": 2,
+      "IsReadOnly": false
+    },
+    "IsStructContainer": false,
+    "IsDb": false,
+    "ArrayMember": false
+  },
+  {
+    "ChildTags": [],
+    "Name": "K1",
+    "Address": {
+      "OffsetString": "0.0",
+      "BitOffset": 0,
+      "ByteOffset": 0,
+      "Area": 1,
+      "BitWidth": 1,
+      "IsPeripheral": false,
+      "DataBlockNumber": -1,
+      "IsOptimizedDb": false,
+      "DataBlockArea": 0,
+      "AddressUserInput": "%Q0.0",
+      "DataType": 2,
+      "IsReadOnly": false
+    },
+    "IsStructContainer": false,
+    "IsDb": false,
+    "ArrayMember": false
+  },
+  {
+    "ChildTags": [],
+    "Name": "K2",
+    "Address": {
+      "OffsetString": "0.1",
+      "BitOffset": 1,
+      "ByteOffset": 0,
+      "Area": 1,
+      "BitWidth": 1,
+      "IsPeripheral": false,
+      "DataBlockNumber": -1,
+      "IsOptimizedDb": false,
+      "DataBlockArea": 0,
+      "AddressUserInput": "%Q0.1",
+      "DataType": 2,
+      "IsReadOnly": false
+    },
+    "IsStructContainer": false,
+    "IsDb": false,
+    "ArrayMember": false
+  },
+  {
+    "ChildTags": [],
+    "Name": "Etapa 1",
+    "Address": {
+      "OffsetString": "0.0",
+      "BitOffset": 0,
+      "ByteOffset": 0,
+      "Area": 2,
+      "BitWidth": 1,
+      "IsPeripheral": false,
+      "DataBlockNumber": -1,
+      "IsOptimizedDb": false,
+      "DataBlockArea": 0,
+      "AddressUserInput": "%M0.0",
+      "DataType": 2,
+      "IsReadOnly": false
+    },
+    "IsStructContainer": false,
+    "IsDb": false,
+    "ArrayMember": false
+  },
+  {
+    "ChildTags": [],
+    "Name": "Etapa 2",
+    "Address": {
+      "OffsetString": "0.1",
+      "BitOffset": 1,
+      "ByteOffset": 0,
+      "Area": 2,
+      "BitWidth": 1,
+      "IsPeripheral": false,
+      "DataBlockNumber": -1,
+      "IsOptimizedDb": false,
+      "DataBlockArea": 0,
+      "AddressUserInput": "%M0.1",
+      "DataType": 2,
+      "IsReadOnly": false
+    },
+    "IsStructContainer": false,
+    "IsDb": false,
+    "ArrayMember": false
+  },
+  {
+    "ChildTags": [],
+    "Name": "Etapa 3",
+    "Address": {
+      "OffsetString": "0.2",
+      "BitOffset": 2,
+      "ByteOffset": 0,
+      "Area": 2,
+      "BitWidth": 1,
+      "IsPeripheral": false,
+      "DataBlockNumber": -1,
+      "IsOptimizedDb": false,
+      "DataBlockArea": 0,
+      "AddressUserInput": "%M0.2",
+      "DataType": 2,
+      "IsReadOnly": false
+    },
+    "IsStructContainer": false,
+    "IsDb": false,
+    "ArrayMember": false
+  },
+  {
+    "ChildTags": [],
+    "Name": "Etapa 4",
+    "Address": {
+      "OffsetString": "0.3",
+      "BitOffset": 3,
+      "ByteOffset": 0,
+      "Area": 2,
+      "BitWidth": 1,
+      "IsPeripheral": false,
+      "DataBlockNumber": -1,
+      "IsOptimizedDb": false,
+      "DataBlockArea": 0,
+      "AddressUserInput": "%M0.3",
+      "DataType": 2,
+      "IsReadOnly": false
+    },
+    "IsStructContainer": false,
+    "IsDb": false,
+    "ArrayMember": false
+  },
+  {
+    "ChildTags": [],
+    "Name": "Tag_1",
+    "Address": {
+      "OffsetString": "10.0",
+      "BitOffset": 80,
+      "ByteOffset": 10,
+      "Area": 2,
+      "BitWidth": 1,
+      "IsPeripheral": false,
+      "DataBlockNumber": -1,
+      "IsOptimizedDb": false,
+      "DataBlockArea": 0,
+      "AddressUserInput": "%M10.0",
+      "DataType": 2,
+      "IsReadOnly": false
+    },
+    "IsStructContainer": false,
+    "IsDb": false,
+    "ArrayMember": false
+  }
+]

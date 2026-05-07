@@ -1,0 +1,348 @@
+[
+  {
+    "IsSelectedSimModel": true,
+    "Label": "SimView_1",
+    "Icon": "diagram-module",
+    "IoContainerModel": {
+      "SimulationItemModelList": [
+        {
+          "$type": "plcsim.Simulation.IoTables.Model.IoTable, plcsim",
+          "x": 20.0,
+          "y": 20.0,
+          "z": -54,
+          "width": 900.0,
+          "Name": "SimTable_1",
+          "Id": "b97a3846-3747-4964-950f-f3c57fae2f1d",
+          "CachedPlcInformation": {
+            "InstanceGuid": "dc719f4a-a556-44bd-900a-c0525e12e646",
+            "PlcName": "PLC_1",
+            "InstanceName": "Instance_1",
+            "PlcFamily": 1,
+            "PlcTypeString": "S7-1200"
+          },
+          "IoItemList": [
+            {
+              "ParentId": "b97a3846-3747-4964-950f-f3c57fae2f1d",
+              "VariableData": {
+                "TagName": "",
+                "Address": {
+                  "OffsetString": "0",
+                  "BitOffset": 0,
+                  "ByteOffset": 0,
+                  "Area": 99,
+                  "BitWidth": 0,
+                  "IsPeripheral": false,
+                  "DataBlockNumber": 0,
+                  "IsOptimizedDb": false,
+                  "DataBlockArea": 0,
+                  "DataType": 0,
+                  "IsReadOnly": false
+                }
+              },
+              "SelectedFormat": 0,
+              "ConsistentModifyValue": "",
+              "ConsistentModifyEnabled": false,
+              "Comment": "",
+              "InstanceGuid": "dc719f4a-a556-44bd-900a-c0525e12e646"
+            }
+          ],
+          "ColumnFilters": {
+            "NameVisible": true,
+            "AddressVisible": true,
+            "DisplayFormatVisible": true,
+            "MonitorVisible": true,
+            "ConsistentModifyVisible": false,
+            "CommentVisible": true
+          }
+        },
+        {
+          "$type": "plcsim.Simulation.Sequences.Model.Sequence, plcsim",
+          "x": 40.0,
+          "y": 40.0,
+          "z": -150,
+          "Name": "Sequence_1",
+          "Id": "2ccc5690-4114-464c-a22d-62396a66db96",
+          "CachedPlcInformation": {
+            "InstanceGuid": "dc719f4a-a556-44bd-900a-c0525e12e646",
+            "PlcName": "PLC_1",
+            "InstanceName": "Instance_1",
+            "PlcFamily": 1,
+            "PlcTypeString": "S7-1200"
+          },
+          "Steps": [
+            {
+              "Actions": [
+                {
+                  "SequenceAction": 0,
+                  "VariableData": {
+                    "TagName": "",
+                    "Address": {
+                      "OffsetString": "0",
+                      "BitOffset": 0,
+                      "ByteOffset": 0,
+                      "Area": 99,
+                      "BitWidth": 0,
+                      "IsPeripheral": false,
+                      "DataBlockNumber": 0,
+                      "IsOptimizedDb": false,
+                      "DataBlockArea": 0,
+                      "DataType": 0,
+                      "IsReadOnly": false
+                    }
+                  },
+                  "CurrentDisplayFormat": 0
+                }
+              ],
+              "IntervalTime": "00:00:00",
+              "Name": "#1",
+              "Id": "7aa83cc4-c876-43a8-bfb7-a91ad1895633",
+              "IsDisabled": false,
+              "IsCollapsed": false
+            }
+          ],
+          "InstanceController": {
+            "InstanceList": [
+              {
+                "PlcName": "PLC_1",
+                "InstanceName": "Instance_1",
+                "InstanceGuid": "dc719f4a-a556-44bd-900a-c0525e12e646",
+                "PlcType": 1,
+                "PlcId": 0,
+                "WasPoweredOnWhenSaved": true,
+                "IsUsingRuntimeApi": false,
+                "IsConfigured": true,
+                "TimeScalingValue": 1.0,
+                "Vplc": {
+                  "$type": "plcsim.Vplc.VplcApi.VplcApiPlc, plcsim",
+                  "PlcName": "PLC_1",
+                  "PlcType": 1,
+                  "PlcID": 0,
+                  "IsConfigured": true,
+                  "CycleTimeoutMode": 1,
+                  "CycleTimeoutTime": 150,
+                  "VplcInputOutput": {
+                    "$type": "plcsim.Vplc.VplcApi.VplcApiInputOutput, plcsim"
+                  },
+                  "PlcIsInWorkspace": true
+                },
+                "LicenseSelection": {
+                  "SelectedLicense": 0
+                },
+                "PlcIsInWorkspace": true
+              }
+            ]
+          },
+          "DefaultIntervalTime": "00:00:00.5000000",
+          "IsRepeating": false
+        },
+        {
+          "$type": "plcsim.Simulation.Events.Model.Event, plcsim",
+          "x": 60.0,
+          "y": 60.0,
+          "z": -138,
+          "Name": "Event_1",
+          "Id": "b4137019-6180-4cd3-8baa-f281031e2c6e",
+          "CachedPlcInformation": {
+            "InstanceGuid": "dc719f4a-a556-44bd-900a-c0525e12e646",
+            "PlcName": "PLC_1",
+            "InstanceName": "Instance_1",
+            "PlcFamily": 1,
+            "PlcTypeString": "S7-1200"
+          },
+          "EventType": 0,
+          "IoState": [
+            0
+          ],
+          "Channels": [
+            {
+              "IsSelected": false,
+              "Id": 0,
+              "ChannelErrorType": 1,
+              "ChannelEventType": 0,
+              "ChannelSeverity": 0,
+              "ChannelDirection": 1,
+              "ParentEventName": "Event_1",
+              "IsBoundToPlcType1200": true
+            }
+          ],
+          "ModuleLogicalAddress": 32,
+          "ModuleInfos": {
+            "32": "32:Local~S7-1200 station_1",
+            "33": "33:Local~centralIOcontroller",
+            "49": "49:Local~CPU proxy",
+            "50": "50:Local~PLC_1",
+            "51": "51:Local~Card reader/writer",
+            "52": "52:Local~CPU exec unit",
+            "64": "64:Local~PROFINET interface_1",
+            "65": "65:Local~Port_1",
+            "66": "66:Local~Port_2",
+            "117": "117:Local~OPC UA",
+            "257": "257:Local~HSC_1",
+            "258": "258:Local~HSC_2",
+            "259": "259:Local~HSC_3",
+            "260": "260:Local~HSC_4",
+            "261": "261:Local~HSC_5",
+            "262": "262:Local~HSC_6",
+            "263": "263:Local~AI 2/AQ 2_1",
+            "264": "264:Local~DI 14/DQ 10_1",
+            "265": "265:Local~Pulse_1",
+            "266": "266:Local~Pulse_2",
+            "267": "267:Local~Pulse_3",
+            "268": "268:Local~Pulse_4"
+          }
+        },
+        {
+          "$type": "plcsim.Simulation.IoTables.Model.IoTable, plcsim",
+          "x": 80.0,
+          "y": 80.0,
+          "z": -57,
+          "width": 900.0,
+          "Name": "SimTable_2",
+          "Id": "57b1dde7-2cfd-4a58-af84-d77fbe61b770",
+          "CachedPlcInformation": {
+            "InstanceGuid": "dc719f4a-a556-44bd-900a-c0525e12e646",
+            "PlcName": "PLC_1",
+            "InstanceName": "Instance_1",
+            "PlcFamily": 1,
+            "PlcTypeString": "S7-1200"
+          },
+          "IoItemList": [
+            {
+              "ParentId": "57b1dde7-2cfd-4a58-af84-d77fbe61b770",
+              "VariableData": {
+                "TagName": "",
+                "Address": {
+                  "OffsetString": "0",
+                  "BitOffset": 0,
+                  "ByteOffset": 0,
+                  "Area": 99,
+                  "BitWidth": 0,
+                  "IsPeripheral": false,
+                  "DataBlockNumber": 0,
+                  "IsOptimizedDb": false,
+                  "DataBlockArea": 0,
+                  "DataType": 0,
+                  "IsReadOnly": false
+                }
+              },
+              "SelectedFormat": 0,
+              "ConsistentModifyValue": "",
+              "ConsistentModifyEnabled": false,
+              "Comment": "",
+              "InstanceGuid": "dc719f4a-a556-44bd-900a-c0525e12e646"
+            }
+          ],
+          "ColumnFilters": {
+            "NameVisible": true,
+            "AddressVisible": true,
+            "DisplayFormatVisible": true,
+            "MonitorVisible": true,
+            "ConsistentModifyVisible": false,
+            "CommentVisible": true
+          }
+        },
+        {
+          "$type": "plcsim.Simulation.IoTables.Model.IoTable, plcsim",
+          "x": 49.0,
+          "y": 24.0,
+          "z": 9,
+          "width": 900.0,
+          "Name": "SimTable_3",
+          "Id": "4a2ce591-58ef-4280-99fe-ec13f53c75bf",
+          "CachedPlcInformation": {
+            "InstanceGuid": "dc719f4a-a556-44bd-900a-c0525e12e646",
+            "PlcName": "PLC_1",
+            "InstanceName": "Instance_1",
+            "PlcFamily": 1,
+            "PlcTypeString": "S7-1200"
+          },
+          "IoItemList": [
+            {
+              "ParentId": "4a2ce591-58ef-4280-99fe-ec13f53c75bf",
+              "VariableData": {
+                "TagName": "Start I",
+                "Address": {
+                  "OffsetString": "0.0",
+                  "BitOffset": 0,
+                  "ByteOffset": 0,
+                  "Area": 0,
+                  "BitWidth": 1,
+                  "IsPeripheral": true,
+                  "DataBlockNumber": -1,
+                  "IsOptimizedDb": false,
+                  "DataBlockArea": 0,
+                  "AddressUserInput": "%I0.0",
+                  "DataType": 2,
+                  "IsReadOnly": false
+                }
+              },
+              "SelectedFormat": 4,
+              "ConsistentModifyValue": "",
+              "ConsistentModifyEnabled": false,
+              "Comment": "",
+              "InstanceGuid": "dc719f4a-a556-44bd-900a-c0525e12e646"
+            },
+            {
+              "ParentId": "4a2ce591-58ef-4280-99fe-ec13f53c75bf",
+              "VariableData": {
+                "TagName": "K1",
+                "Address": {
+                  "OffsetString": "0.0",
+                  "BitOffset": 0,
+                  "ByteOffset": 0,
+                  "Area": 1,
+                  "BitWidth": 1,
+                  "IsPeripheral": false,
+                  "DataBlockNumber": -1,
+                  "IsOptimizedDb": false,
+                  "DataBlockArea": 0,
+                  "AddressUserInput": "%Q0.0",
+                  "DataType": 2,
+                  "IsReadOnly": false
+                }
+              },
+              "SelectedFormat": 4,
+              "ConsistentModifyValue": "",
+              "ConsistentModifyEnabled": false,
+              "Comment": "",
+              "InstanceGuid": "dc719f4a-a556-44bd-900a-c0525e12e646"
+            },
+            {
+              "ParentId": "4a2ce591-58ef-4280-99fe-ec13f53c75bf",
+              "VariableData": {
+                "TagName": "",
+                "Address": {
+                  "OffsetString": "0",
+                  "BitOffset": 0,
+                  "ByteOffset": 0,
+                  "Area": 99,
+                  "BitWidth": 0,
+                  "IsPeripheral": false,
+                  "DataBlockNumber": 0,
+                  "IsOptimizedDb": false,
+                  "DataBlockArea": 0,
+                  "DataType": 0,
+                  "IsReadOnly": false
+                }
+              },
+              "SelectedFormat": 0,
+              "ConsistentModifyValue": "",
+              "ConsistentModifyEnabled": false,
+              "Comment": "",
+              "InstanceGuid": "dc719f4a-a556-44bd-900a-c0525e12e646"
+            }
+          ],
+          "ColumnFilters": {
+            "NameVisible": true,
+            "AddressVisible": true,
+            "DisplayFormatVisible": true,
+            "MonitorVisible": true,
+            "ConsistentModifyVisible": false,
+            "CommentVisible": true
+          }
+        }
+      ]
+    },
+    "Version": "20.00.00.00"
+  }
+]
